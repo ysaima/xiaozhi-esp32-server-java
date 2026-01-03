@@ -27,7 +27,7 @@ public class CmsUtils {
     public static final String USER_ATTRIBUTE_KEY = "user";
 
     // 缓存服务器IP地址 - 只在第一次调用getServerIp时初始化
-    private String serverIp = "192.168.1.13";
+    private String serverIp = null;
     private boolean initializing = false;
 
     // 新增的全局变量
